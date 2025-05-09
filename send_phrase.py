@@ -68,7 +68,7 @@ def send_email(subject, body):
         server.sendmail(EMAIL_ADDRESS, RECIPIENTS, msg.as_string())
 
 def get_next_static_phrase():
-    if not os.path.exists("static_phrases.txt"):
+    if not os.path.exists("static_phrases_2.txt"):
         return "No static phrases file found."
     used_words = get_used_words()
     with open("static_phrases.txt", "r", encoding="utf-8") as f:
