@@ -44,7 +44,6 @@ def get_unique_tamil_phrase():
         except Exception as e:
             # Fallback to static file
             return get_next_static_phrase()
-
         # Try to extract the word from the response
         for line in output.splitlines():
             if line.lower().startswith("word:"):
