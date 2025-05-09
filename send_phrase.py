@@ -34,12 +34,16 @@ def get_unique_tamil_phrase():
             "Return it in clear labeled format.."
         )
 
-        client = openai.OpenAI(api_key=OPENAI_API_KEY)
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": prompt}]
-        )
-        output = response.choices[0].message.content.strip()
+    try:
+            client = openai.OpenAI(api_key=OPENAI_API_KEY)
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": prompt}]
+            )
+            output = response.choices[0].message.content.strip()
+    except Exception as e:
+            output = "open AI error"
+            return output
 
         # Try to extract the word from the response
         for line in output.splitlines():
