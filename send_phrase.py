@@ -95,9 +95,10 @@ def main():
     phrase = get_unique_tamil_phrase()
     today = date.today().strftime("%B %d, %Y")
     subject = f"Tamil Word/Phrase of the Day – {today}"
-    # Add footer to the email body
-    phrase_with_footer = f"{phrase}\n\n© b33pb00pb0t"
-    send_email(subject, phrase_with_footer)
+    # Add header and footer to the email body
+    header = "Hello! Here's your tamil word/phrase of the day!"
+    phrase_with_header_footer = f"{header}\n\n{phrase}\n\nHope you like it! \n\n© b33pb00pb0t"
+    send_email(subject, phrase_with_header_footer)
     print("✅ Phrase sent!")
 
 if __name__ == "__main__":
