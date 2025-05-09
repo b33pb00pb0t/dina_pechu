@@ -42,9 +42,8 @@ def get_unique_tamil_phrase():
             )
             output = response.choices[0].message.content.strip()
         except Exception as e:
-            output = "open AI error"
-            return output
-
+            # Fallback to static file
+            return get_next_static_phrase()
         # Try to extract the word from the response
         for line in output.splitlines():
             if line.lower().startswith("word:"):
@@ -53,7 +52,8 @@ def get_unique_tamil_phrase():
                     save_word(word)
                     return output
         attempt += 1
-    return "Could not fetch a new phrase after multiple attempts."
+    # If OpenAI fails to provide a new word, fallback to static file
+    return get_next_static_phrase()
 
 def send_email(subject, body):
     msg = MIMEMultipart()
@@ -66,6 +66,23 @@ def send_email(subject, body):
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
         server.sendmail(EMAIL_ADDRESS, RECIPIENTS, msg.as_string())
+
+def get_next_static_phrase():
+    if not os.path.exists("static_phrases.txt"):
+        return "No static phrases file found."
+    used_words = get_used_words()
+    with open("static_phrases.txt", "r", encoding="utf-8") as f:
+        content = f.read()
+    phrases = [p.strip() for p in content.split("\n\n") if p.strip()]
+    for phrase in phrases:
+        # Extract the word line
+        for line in phrase.splitlines():
+            if line.lower().startswith("word:"):
+                word = line.split(":", 1)[1].strip().lower()
+                if word not in used_words:
+                    save_word(word)
+                    return phrase
+    return "No unused static phrases left."
 
 def main():
     phrase = get_unique_tamil_phrase()
