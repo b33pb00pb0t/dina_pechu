@@ -4,6 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
 from datetime import date
+import re
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
@@ -44,6 +45,7 @@ def get_unique_tamil_phrase():
         except Exception as e:
             # Fallback to static file
             return get_next_static_phrase()
+
         # Try to extract the word from the response
         for line in output.splitlines():
             if line.lower().startswith("word:"):
@@ -68,20 +70,25 @@ def send_email(subject, body):
         server.sendmail(EMAIL_ADDRESS, RECIPIENTS, msg.as_string())
 
 def get_next_static_phrase():
-    if not os.path.exists("static_phrases_2.txt"):
+    static_file = "static_phrases_2.txt"
+    if not os.path.exists(static_file):
         return "No static phrases file found."
     used_words = get_used_words()
-    with open("static_phrases.txt", "r", encoding="utf-8") as f:
+    with open(static_file, "r", encoding="utf-8") as f:
         content = f.read()
-    phrases = [p.strip() for p in content.split("\n\n") if p.strip()]
-    for phrase in phrases:
-        # Extract the word line
-        for line in phrase.splitlines():
-            if line.lower().startswith("word:"):
-                word = line.split(":", 1)[1].strip().lower()
-                if word not in used_words:
-                    save_word(word)
-                    return phrase
+    # Split on every line that starts with 'Word:'
+    blocks = re.split(r'(?=^Word:)', content, flags=re.MULTILINE)
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        # Extract the word
+        match = re.search(r'^Word:\s*(.+)', block, flags=re.MULTILINE)
+        if match:
+            word = match.group(1).strip().lower()
+            if word not in used_words:
+                save_word(word)
+                return block
     return "No unused static phrases left."
 
 def main():
