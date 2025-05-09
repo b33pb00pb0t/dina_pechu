@@ -1,0 +1,184 @@
+1. Word: வணக்கம்
+   Transliteration: vaṇakkam
+   Pronunciation: va-na-kam
+   English Meaning: Hello / Greetings
+   Tamil Sentence: வணக்கம்! எப்படி இருக்கிறீர்கள்?
+   Transliteration + Translation: Vaṇakkam! Eppadi irukkirīrkaḷ? - Hello! How are you?
+   Tense: Present
+
+2. Word: நன்றி
+   Transliteration: naṉṟi
+   Pronunciation: nan-ri
+   English Meaning: Thank you
+   Tamil Sentence: நன்றி உங்கள் உதவிக்கு.
+   Transliteration + Translation: Naṉṟi uṅkaḷ utavikku. - Thank you for your help.
+   Tense: Present
+
+3. Word: சரி
+   Transliteration: sari
+   Pronunciation: sa-ri
+   English Meaning: Okay / Alright
+   Tamil Sentence: சரி, நான் வருகிறேன்.
+   Transliteration + Translation: Sari, nāṉ varugiṟēṉ. - Okay, I am coming.
+   Tense: Future
+   Tense Variations:
+      Present: நான் வருகிறேன்.
+      Past: நான் வந்தேன்.
+      Future: நான் வருவேன்.
+
+4. Word: இல்லை
+   Transliteration: illai
+   Pronunciation: il-lai
+   English Meaning: No
+   Tamil Sentence: இல்லை, எனக்கு பிடிக்கவில்லை.
+   Transliteration + Translation: Illai, eṉakku piṭikkavillai. - No, I don’t like it.
+   Tense: Present
+
+5. Word: ஆம்
+   Transliteration: ām
+   Pronunciation: aam
+   English Meaning: Yes
+   Tamil Sentence: ஆம், அது என் புத்தகம்.
+   Transliteration + Translation: Ām, atu eṉ putthakam. - Yes, that is my book.
+   Tense: Present
+
+6. Word: மன்னிக்கவும்
+   Transliteration: maṉṉikkavum
+   Pronunciation: man-nik-ka-vum
+   English Meaning: Sorry / Excuse me
+   Tamil Sentence: மன்னிக்கவும், நான் தாமதமாகிவிட்டேன்.
+   Transliteration + Translation: Maṉṉikkavum, nāṉ tāmatamākiviṭṭēṉ. - Sorry, I was late.
+   Tense: Past
+
+7. Word: போங்கள்
+   Transliteration: pōṅkaḷ
+   Pronunciation: pongal
+   English Meaning: Go (polite)
+   Tamil Sentence: தயவுசெய்து போங்கள்.
+   Transliteration + Translation: Tayavuseytu pōṅkaḷ. - Please go.
+   Tense: Imperative
+
+8. Word: வாங்க
+   Transliteration: vāṅka
+   Pronunciation: vaanga
+   English Meaning: Come (polite)
+   Tamil Sentence: உங்களுடன் வாங்க.
+   Transliteration + Translation: Uṅkaḷuṭaṉ vāṅka. - Please come with us.
+   Tense: Imperative
+
+9. Word: இங்கே
+   Transliteration: iṅkē
+   Pronunciation: ing-ay
+   English Meaning: Here
+   Tamil Sentence: நான் இங்கே இருக்கிறேன்.
+   Transliteration + Translation: Nāṉ iṅkē irukkiṟēṉ. - I am here.
+   Tense: Present
+   Tense Variations:
+      Present: நான் இங்கே இருக்கிறேன்.
+      Past: நான் இங்கே இருந்தேன்.
+      Future: நான் இங்கே இருப்பேன்.
+
+10. Word: அங்கே
+   Transliteration: aṅkē
+   Pronunciation: ang-ay
+   English Meaning: There
+   Tamil Sentence: அவர் அங்கே இருக்கிறார்.
+   Transliteration + Translation: Avar aṅkē irukkiṟār. - He is there.
+   Tense: Present
+   Tense Variations:
+      Present: அவர் அங்கே இருக்கிறார்.
+      Past: அவர் அங்கே இருந்தார்.
+      Future: அவர் அங்கே இருப்பார்.
+
+11. Word: நேற்று
+   Transliteration: nēṟṟu
+   Pronunciation: nay-tru
+   English Meaning: Yesterday
+   Tamil Sentence: நேற்று மழை பெய்தது.
+   Transliteration + Translation: Nēṟṟu maḻai peytatu. - It rained yesterday.
+   Tense: Past
+   Tense Variations:
+      Present: மழை பெய்கிறது.
+      Past: மழை பெய்தது.
+      Future: மழை பெய்யும்.
+
+12. Word: இன்று
+   Transliteration: iṉṟu
+   Pronunciation: in-ru
+   English Meaning: Today
+   Tamil Sentence: இன்று நான் வேலை இல்லை.
+   Transliteration + Translation: Iṉṟu nāṉ vēlai illai. - I don’t have work today.
+   Tense: Present
+
+13. Word: நாளை
+   Transliteration: nāḷai
+   Pronunciation: naa-lai
+   English Meaning: Tomorrow
+   Tamil Sentence: நாளை பள்ளிக்குச் செல்லவேண்டும்.
+   Transliteration + Translation: Nāḷai paḷḷikkuc cellavēṇṭum. - I must go to school tomorrow.
+   Tense: Future
+
+14. Word: தயவு
+   Transliteration: tayavu
+   Pronunciation: tha-ya-vu
+   English Meaning: Kindness / Please
+   Tamil Sentence: தயவு செய்து உதவுங்கள்.
+   Transliteration + Translation: Tayavu seytu utavuṅkaḷ. - Please help.
+   Tense: Imperative
+
+15. Word: நீங்கள்
+   Transliteration: nīṅkaḷ
+   Pronunciation: neengal
+   English Meaning: You (formal/plural)
+   Tamil Sentence: நீங்கள் எங்கே போகிறீர்கள்?
+   Transliteration + Translation: Nīṅkaḷ eṅkē pōkiṟīrkaḷ? - Where are you going?
+   Tense: Present
+   Tense Variations:
+      Present: நீங்கள் எங்கே போகிறீர்கள்?
+      Past: நீங்கள் எங்கே சென்றீர்கள்?
+      Future: நீங்கள் எங்கே போவீர்கள்?
+
+16. Word: என் பெயர்
+   Transliteration: eṉ peyar
+   Pronunciation: en pey-ar
+   English Meaning: My name is
+   Tamil Sentence: என் பெயர் அனு.
+   Transliteration + Translation: Eṉ peyar Anu. - My name is Anu.
+   Tense: Present
+
+17. Word: சமையல்
+   Transliteration: camaiyal
+   Pronunciation: sa-mai-yal
+   English Meaning: Cooking
+   Tamil Sentence: அவள் சமையல் செய்கிறாள்.
+   Transliteration + Translation: Avaḷ camaiyal seykkiṟāḷ. - She is cooking.
+   Tense: Present
+   Tense Variations:
+      Present: அவள் சமையல் செய்கிறாள்.
+      Past: அவள் சமையல் செய்தாள்.
+      Future: அவள் சமையல் செய்வாள்.
+
+18. Word: நீர்
+   Transliteration: nīr
+   Pronunciation: neer
+   English Meaning: Water
+   Tamil Sentence: தயவு செய்து நீர் கொடுங்கள்.
+   Transliteration + Translation: Tayavu seytu nīr koṭuṅkaḷ. - Please give water.
+   Tense: Imperative
+
+19. Word: பசிக்குது
+   Transliteration: pacikkuthu
+   Pronunciation: pa-si-kuthu
+   English Meaning: Feeling hungry
+   Tamil Sentence: எனக்கு பசிக்குது.
+   Transliteration + Translation: Eṉakku pacikkuthu. - I am hungry.
+   Tense: Present
+
+20. Word: நடக்கலாம்
+   Transliteration: naṭakkalām
+   Pronunciation: na-da-kka-laam
+   English Meaning: Let’s walk
+   Tamil Sentence: பெரிய கோவிலுக்கு நடக்கலாம்.
+   Transliteration + Translation: Periya kōvilukku naṭakkalām. - Let’s walk to the big temple.
+   Tense: Future
+
