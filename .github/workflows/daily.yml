@@ -2,7 +2,7 @@ name: Send Tamil Phrase Daily
 
 on:
   schedule:
-    - cron: "30 5 * * *"  # 11 AM IST daily
+    - cron: "5 * * * *"  # 11 AM IST daily
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install openai
