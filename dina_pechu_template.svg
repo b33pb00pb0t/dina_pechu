@@ -17,10 +17,8 @@
   <!-- Main Word -->
   <text x="50%" y="280" font-size="60" font-weight="bold" text-anchor="middle" id="word" font-family="Noto Sans Tamil, Arial, sans-serif">{WORD}</text>
   
-  <!-- Transliteration, Meaning, Pronunciation (each on its own line) -->
-  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" id="transliteration" font-family="Noto Sans Tamil, Arial, sans-serif">{TRANSLITERATION}</text>
-  <text x="50%" y="350" font-size="20" font-weight="bold" text-anchor="middle" id="meaning" font-family="Arial, sans-serif">{MEANING}</text>
-  <text x="50%" y="380" font-size="20" font-weight="bold" text-anchor="middle" id="pronunciation" font-family="Noto Sans Tamil, Arial, sans-serif">{PRONUNCIATION}</text>
+  <!-- Transliteration, Meaning, Pronunciation (all in one line) -->
+  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" id="trans_meaning_pron" font-family="Noto Sans Tamil, Arial, sans-serif">{transliteration} - {meaning} - {pronunciation}</text>
   
   <!-- Example Sentence and Translations (left-aligned, spaced out) -->
   <text x="80" y="420" font-size="14" text-anchor="start" id="example_sentence" font-family="Noto Sans Tamil, Arial, sans-serif">Example sentence in Tamil: {example_sentence}</text>
