@@ -23,6 +23,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-unhinted
 
+      - name: Install librsvg2-bin
+        run: sudo apt-get install -y librsvg2-bin
+
       - name: Run script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -31,6 +34,9 @@ jobs:
           RECIPIENTS: ${{ secrets.RECIPIENTS }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python send_phrase.py
+
+      - name: Convert SVG to PNG
+        run: rsvg-convert -o output_phrase.png filled_phrase.svg
 
       - name: Commit phrases.txt if changed
         run: |
