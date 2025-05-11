@@ -38,6 +38,13 @@ jobs:
       - name: Convert SVG to PNG
         run: rsvg-convert -o output_phrase.png filled_phrase.svg
 
+      - name: Send email with PNG
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+        run: python send_email_with_png.py
+
       - name: Commit phrases.txt if changed
         run: |
           git config --global user.name "github-actions[bot]"
