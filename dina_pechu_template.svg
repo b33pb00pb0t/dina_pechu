@@ -17,17 +17,18 @@
   <!-- Main Word -->
   <text x="50%" y="280" font-size="60" font-weight="bold" text-anchor="middle" id="word" font-family="Noto Sans Tamil, Arial, sans-serif">{WORD}</text>
   
-  <!-- Transliteration, Meaning, Pronunciation -->
-  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" font-family="Noto Sans Tamil, Arial, sans-serif">
-    <tspan id="transliteration">{TRANSLITERATION}</tspan> - <tspan id="meaning">{MEANING}</tspan> - <tspan id="pronunciation">{PRONUNCIATION}</tspan>
-  </text>
+  <!-- Transliteration, Meaning, Pronunciation (each on its own line) -->
+  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" id="transliteration" font-family="Noto Sans Tamil, Arial, sans-serif">{TRANSLITERATION}</text>
+  <text x="50%" y="350" font-size="20" font-weight="bold" text-anchor="middle" id="meaning" font-family="Arial, sans-serif">{MEANING}</text>
+  <text x="50%" y="380" font-size="20" font-weight="bold" text-anchor="middle" id="pronunciation" font-family="Noto Sans Tamil, Arial, sans-serif">{PRONUNCIATION}</text>
   
-  <!-- Example Sentence and Translations (left-aligned) -->
-  <text x="80" y="380" font-size="14" text-anchor="start" id="example_sentence">Example sentence in Tamil: {example_sentence}</text>
-  <text x="80" y="410" font-size="14" text-anchor="start" id="example_sentence_transliteration">Transliteration of the example: {example_sentence_transliteration}</text>
-  <text x="80" y="440" font-size="14" text-anchor="start" id="example_sentence_translation">Translation of example: {example_sentence_translation}</text>
+  <!-- Example Sentence and Translations (left-aligned, spaced out) -->
+  <text x="80" y="420" font-size="14" text-anchor="start" id="example_sentence" font-family="Noto Sans Tamil, Arial, sans-serif">Example sentence in Tamil: {example_sentence}</text>
+  <text x="80" y="450" font-size="14" text-anchor="start" id="example_sentence_transliteration">Transliteration of the example: {example_sentence_transliteration}</text>
+  <text x="80" y="480" font-size="14" text-anchor="start" id="example_sentence_translation">Translation of example: {example_sentence_translation}</text>
+  
   <!-- Meaning image below the example sentences -->
-  <image id="image_meaning" x="204" y="480" width="360" height="240" href="" />
+  <image id="image_meaning" x="204" y="520" width="360" height="240" href="" />
   
   <!-- Footer -->
   <text x="688" y="1050" font-size="14" text-anchor="end">© b33pb00pb0t</text>
