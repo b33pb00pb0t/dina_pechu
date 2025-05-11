@@ -213,9 +213,7 @@ def main():
     phrase_data = get_unique_tamil_phrase()
     today = date.today().strftime("%B %d, %Y")
     phrase_data["date"] = today
-    image_path = fill_svg_and_convert(phrase_data)
-    subject = f"Tamil Word/Phrase of the Day – {today}"
-    send_email(subject, OUTPUT_SVG)
+    fill_svg_and_convert(phrase_data)
 
 if __name__ == "__main__":
     main()
