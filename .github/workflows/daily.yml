@@ -26,13 +26,9 @@ jobs:
       - name: Install librsvg2-bin
         run: sudo apt-get install -y librsvg2-bin
 
-
       - name: Run script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          RECIPIENTS: ${{ secrets.RECIPIENTS }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python send_phrase.py
 
@@ -56,7 +52,6 @@ jobs:
       - name: Pull latest changes before push
         run: |
           git pull --rebase origin ${{ github.ref_name }}
-
 
       - name: Push changes
         if: success()
