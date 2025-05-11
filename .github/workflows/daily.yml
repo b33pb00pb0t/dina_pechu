@@ -23,6 +23,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-unhinted
 
+      - name: Install librsvg2-bin
+        run: sudo apt-get install -y librsvg2-bin
+
+
       - name: Run script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -31,6 +35,16 @@ jobs:
           RECIPIENTS: ${{ secrets.RECIPIENTS }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python send_phrase.py
+
+      - name: Convert SVG to PNG
+        run: rsvg-convert -o output_phrase.png filled_phrase.svg
+
+      - name: Send email with PNG
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+        run: python send_email_with_png.py
 
       - name: Commit phrases.txt if changed
         run: |
@@ -41,11 +55,12 @@ jobs:
 
       - name: Pull latest changes before push
         run: |
-          git pull --rebase origin main
+          git pull --rebase origin ${{ github.ref_name }}
+
 
       - name: Push changes
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
