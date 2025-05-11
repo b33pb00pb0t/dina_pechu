@@ -171,9 +171,7 @@ def fill_svg_and_convert(data, template_path=TEMPLATE_SVG, output_svg=OUTPUT_SVG
     id_map = {
         "date": data.get("date", ""),
         "word": data.get("word", ""),
-        "transliteration": data.get("transliteration", ""),
-        "meaning": meaning,
-        "pronunciation": data.get("pronunciation", ""),
+        "trans_meaning_pron": f"{data.get('transliteration', '')} - {meaning} - {data.get('pronunciation', '')}",
         "example_sentence": f"Example sentence in Tamil: {data.get('example_sentence', '')}",
         "example_sentence_transliteration": f"Transliteration of the example: {data.get('example_sentence_transliteration', '')}",
         "example_sentence_translation": f"Translation of example: {data.get('example_sentence_translation', '')}"
