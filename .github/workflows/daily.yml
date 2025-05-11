@@ -16,7 +16,12 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install openai
+        run: pip install -r requirements.txt
+
+      - name: Install Noto Sans Tamil font
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto fonts-noto-unhinted
 
       - name: Run script
         env:
@@ -24,6 +29,7 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           RECIPIENTS: ${{ secrets.RECIPIENTS }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python send_phrase.py
 
       - name: Commit phrases.txt if changed
@@ -32,6 +38,10 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add phrases.txt
           git diff --cached --quiet || git commit -m "Update phrases.txt with new used word"
+
+      - name: Pull latest changes before push
+        run: |
+          git pull --rebase origin main
 
       - name: Push changes
         if: success()
