@@ -39,6 +39,10 @@ jobs:
           git add phrases.txt
           git diff --cached --quiet || git commit -m "Update phrases.txt with new used word"
 
+      - name: Pull latest changes before push
+        run: |
+          git pull --rebase origin main
+
       - name: Push changes
         if: success()
         env:
