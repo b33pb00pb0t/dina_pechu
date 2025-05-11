@@ -215,7 +215,7 @@ def main():
     phrase_data["date"] = today
     image_path = fill_svg_and_convert(phrase_data)
     subject = f"Tamil Word/Phrase of the Day – {today}"
-    send_email(subject, image_path)
+    send_email(subject, OUTPUT_SVG)
 
 if __name__ == "__main__":
     main()
