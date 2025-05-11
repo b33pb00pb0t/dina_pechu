@@ -1,45 +1,40 @@
-Word: வணக்கம்
-Transliteration: vaṇakkam
-Pronunciation: va-na-kam
-English Meaning: Hello / Greetings
-Tamil Sentence: வணக்கம்! எப்படி இருக்கிறீர்கள்?
-Transliteration + Translation: Vaṇakkam! Eppadi irukkirīrkaḷ? - Hello! How are you?
-Tense: Present
-Tense Variations with Examples:
-- Present: வணக்கம் சொல்கிறேன் (vaṇakkam colkiṟēṉ) – I say hello
-  Pronunciation: va-na-kam chol-ki-reyn
-- Past: வணக்கம் சொன்னேன் (vaṇakkam coṉṉēṉ) – I said hello
-  Pronunciation: va-na-kam son-neyn
-- Future: வணக்கம் சொல்வேன் (vaṇakkam colvēṉ) – I will say hello
-  Pronunciation: va-na-kam chol-veyn
-
-Word: நன்றி
-Transliteration: naṉṟi
-Pronunciation: nan-ri
-English Meaning: Thank you
-Tamil Sentence: நன்றி உங்கள் உதவிக்கு.
-Transliteration + Translation: Naṉṟi uṅkaḷ utavikku. - Thank you for your help.
-Tense: Present
-Tense Variations with Examples:
-- Present: நன்றி கூறுகிறேன் (naṉṟi kūṟugiṟēṉ) – I am saying thanks
-  Pronunciation: nan-ri koo-ru-ki-reyn
-- Past: நன்றி கூறினேன் (naṉṟi kūṟiṉēṉ) – I said thanks
-  Pronunciation: nan-ri koo-ri-neyn
-- Future: நன்றி கூறுவேன் (naṉṟi kūṟuvēṉ) – I will say thanks
-  Pronunciation: nan-ri koo-ru-veyn
-
-Word: சரி
-Transliteration: sari
-Pronunciation: sa-ri
-English Meaning: Okay / Alright
-Tamil Sentence: சரி, நான் வருகிறேன்.
-Transliteration + Translation: Sari, nāṉ varugiṟēṉ. - Okay, I am coming.
-Tense: Future
-Tense Variations with Examples:
-- Present: நான் வருகிறேன் (nāṉ varugiṟēṉ) – I am coming
-  Pronunciation: naan va-ru-gi-reyn
-- Past: நான் வந்தேன் (nāṉ vantēṉ) – I came
-  Pronunciation: naan van-theyn
-- Future: நான் வருவேன் (nāṉ varuvēṉ) – I will come
-  Pronunciation: naan va-ru-veyn
-
+---
+word: வானம்
+transliteration: vāṉam
+meaning: sky
+pronunciation: vaa-nam
+example_sentence: வானம் நீலமாக உள்ளது.
+example_sentence_transliteration: vāṉam nīlamāka uḷḷatu.
+example_sentence_translation: The sky is blue.
+---
+word: தோழி
+transliteration: tōḻi
+meaning: friend (female)
+pronunciation: tho-zh-ee
+example_sentence: என் தோழி எனக்கு புத்தகம் கொடுத்தாள்.
+example_sentence_transliteration: eṉ tōḻi eṉakku putthagam koṭuttāḷ.
+example_sentence_translation: My friend gave me a book.
+---
+word: பசு
+transliteration: pasu
+meaning: cow
+pronunciation: pa-su
+example_sentence: பசு பச்சை மேய்கிறது.
+example_sentence_transliteration: pasu pacchai mēykiṟatu.
+example_sentence_translation: The cow grazes on green grass.
+---
+word: வீடு
+transliteration: vīdu
+meaning: house
+pronunciation: vee-du
+example_sentence: அவன் வீடு பெரியது.
+example_sentence_transliteration: avaṉ vīdu periyatu.
+example_sentence_translation: His house is big.
+---
+word: புத்தகம்
+transliteration: putthagam
+meaning: book
+pronunciation: puth-tha-gam
+example_sentence: நான் ஒரு புத்தகம் வாசிக்கிறேன்.
+example_sentence_transliteration: nāṉ oru putthagam vācikkiṟēṉ.
+example_sentence_translation: I am reading a book.
