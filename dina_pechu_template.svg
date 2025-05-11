@@ -2,7 +2,7 @@
   <rect width="100%" height="100%" fill="#f9f5f0"/>
   
   <!-- Title in Tamil -->
-  <text x="50%" y="100" font-size="72" font-family="Noto Sans Tamil, Arial, sans-serif" text-anchor="middle">தின பேச்சு</text>
+  <text x="50%" y="100" font-size="72" font-family="Noto Sans Tamil" text-anchor="middle">தின பேச்சு</text>
   
   <!-- Top line -->
   <line x1="80" y1="140" x2="688" y2="140" stroke="#000" stroke-width="2"/>
@@ -15,13 +15,13 @@
   <line x1="80" y1="180" x2="688" y2="180" stroke="#000" stroke-width="2"/>
   
   <!-- Main Word -->
-  <text x="50%" y="280" font-size="60" font-weight="bold" text-anchor="middle" id="word" font-family="Noto Sans Tamil, Arial, sans-serif">{WORD}</text>
+  <text x="50%" y="280" font-size="60" font-weight="bold" text-anchor="middle" id="word" font-family="Noto Sans Tamil">{WORD}</text>
   
   <!-- Transliteration, Meaning, Pronunciation (all in one line) -->
-  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" id="trans_meaning_pron" font-family="Noto Sans Tamil, Arial, sans-serif">{transliteration} - {meaning} - {pronunciation}</text>
+  <text x="50%" y="320" font-size="20" font-weight="bold" text-anchor="middle" id="trans_meaning_pron" font-family="Noto Sans Tamil">{transliteration} - {meaning} - {pronunciation}</text>
   
   <!-- Example Sentence and Translations (left-aligned, spaced out) -->
-  <text x="80" y="420" font-size="14" text-anchor="start" id="example_sentence" font-family="Noto Sans Tamil, Arial, sans-serif">Example sentence in Tamil: {example_sentence}</text>
+  <text x="80" y="420" font-size="14" text-anchor="start" id="example_sentence" font-family="Noto Sans Tamil">Example sentence in Tamil: {example_sentence}</text>
   <text x="80" y="450" font-size="14" text-anchor="start" id="example_sentence_transliteration">Transliteration of the example: {example_sentence_transliteration}</text>
   <text x="80" y="480" font-size="14" text-anchor="start" id="example_sentence_translation">Translation of example: {example_sentence_translation}</text>
   
