@@ -22,7 +22,7 @@
   
   <!-- Example Sentence and Translations (left-aligned, spaced out) -->
   <text x="80" y="420" font-size="14" text-anchor="start" id="example_sentence" font-family="Noto Sans Tamil, Arial">Example sentence in Tamil: {example_sentence}</text>
-  <text x="80" y="450" font-size="14" text-anchor="start" id="example_sentence_transliteration">Transliteration of the example: {example_sentence_transliteration}</text>
+  <text x="80" y="450" font-size="14" text-anchor="start" id="example_sentence_pronunciation">Pronunciation of the example: {example_sentence_pronunciation}</text>
   <text x="80" y="480" font-size="14" text-anchor="start" id="example_sentence_translation">Translation of example: {example_sentence_translation}</text>
   
   <!-- Meaning image below the example sentences -->
