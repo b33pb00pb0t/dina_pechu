@@ -23,6 +23,14 @@ example_sentence: பசு பச்சை மேய்கிறது.
 example_sentence_transliteration: pasu pacchai mēykiṟatu.
 example_sentence_translation: The cow grazes on green grass.
 ---
+word: தோழன்
+transliteration: tōḻaṉ
+meaning: friend (male)
+pronunciation: tho-zhan
+example_sentence: என் தோழன் இன்று வரவில்லை.
+example_sentence_pronunciation: en tho-zhan in-ru va-ra-vil-lai.
+example_sentence_translation: My friend didn’t come today.
+---
 word: வீடு
 transliteration: vīdu
 meaning: house
@@ -38,3 +46,67 @@ pronunciation: puth-tha-gam
 example_sentence: நான் ஒரு புத்தகம் வாசிக்கிறேன்.
 example_sentence_transliteration: nāṉ oru putthagam vācikkiṟēṉ.
 example_sentence_translation: I am reading a book.
+---
+word: பூ
+transliteration: pū
+meaning: flower
+pronunciation: poo
+example_sentence: இந்த பூ நறுமணமுள்ளது.
+example_sentence_pronunciation: in-tha poo na-ru-ma-na-mul-la-dhu.
+example_sentence_translation: This flower has a fragrance.
+---
+word: நாய்
+transliteration: nāy
+meaning: dog
+pronunciation: naai
+example_sentence: நாய் வீட்டு வாசலில் இருகிறது.
+example_sentence_pronunciation: naai veettu vaa-sa-lil i-ru-ki-radhu.
+example_sentence_translation: The dog is at the doorstep.
+---
+word: நதி
+transliteration: nathi
+meaning: river
+pronunciation: na-dhi
+example_sentence: நதி அமைதியாக ஓடுகிறது.
+example_sentence_pronunciation: na-dhi a-mai-dhi-yaa-ga o-du-ki-radhu.
+example_sentence_translation: The river flows calmly.
+---
+word: பள்ளி
+transliteration: paḷḷi
+meaning: school
+pronunciation: pal-li
+example_sentence: மாணவர்கள் பள்ளிக்குச் செல்கிறார்கள்.
+example_sentence_pronunciation: maa-ṇa-var-gal pal-li-kku sel-gi-raa-rgal.
+example_sentence_translation: The students are going to school.
+---
+word: மரம்
+transliteration: maram
+meaning: tree
+pronunciation: ma-ram
+example_sentence: அந்த மரம் பெரியது.
+example_sentence_pronunciation: an-tha ma-ram pe-ri-ya-dhu.
+example_sentence_translation: That tree is big.
+---
+word: கண்ணாடி
+transliteration: kaṇṇāṭi
+meaning: mirror
+pronunciation: kan-naa-di
+example_sentence: நான் கண்ணாடியில் பார்த்தேன்.
+example_sentence_pronunciation: naan kan-naa-di-yil paar-theyn.
+example_sentence_translation: I looked in the mirror.
+---
+word: கடை
+transliteration: kaṭai
+meaning: shop
+pronunciation: ka-dai
+example_sentence: அவன் கடைக்குச் சென்றான்.
+example_sentence_pronunciation: a-van ka-dai-kku sen-raan.
+example_sentence_translation: He went to the shop.
+---
+word: நேரம்
+transliteration: nēram
+meaning: time
+pronunciation: ne-ram
+example_sentence: இப்போது நேரம் அதிகமாக உள்ளது.
+example_sentence_pronunciation: ip-po-thu ne-ram a-dhi-ga-maa-ga ul-la-dhu.
+example_sentence_translation: It is quite late now.
