@@ -33,7 +33,7 @@ def parse_phrase_output(text):
         "meaning": "",
         "pronunciation": "",
         "example_sentence": "",
-        "example_sentence_transliteration": "",
+        "example_sentence_pronunciation": "",
         "example_sentence_translation": ""
     }
     for line in text.splitlines():
@@ -43,7 +43,7 @@ def parse_phrase_output(text):
             value = value.strip()
             if key.startswith("word"):
                 fields["word"] = value
-            elif key.startswith("transliteration") and not key.startswith("example_sentence_transliteration"):
+            elif key.startswith("transliteration"):
                 fields["transliteration"] = value
             elif key.startswith("meaning") or key.startswith("translation"):
                 fields["translation"] = value
@@ -52,8 +52,8 @@ def parse_phrase_output(text):
                 fields["pronunciation"] = value
             elif key == "example_sentence":
                 fields["example_sentence"] = value
-            elif key == "example_sentence_transliteration":
-                fields["example_sentence_transliteration"] = value
+            elif key == "example_sentence_pronunciation":
+                fields["example_sentence_pronunciation"] = value
             elif key == "example_sentence_translation":
                 fields["example_sentence_translation"] = value
     return fields
@@ -164,8 +164,8 @@ def fill_svg_and_convert(data, template_path=TEMPLATE_SVG, output_svg=OUTPUT_SVG
         "word": data.get("word", ""),
         "trans_meaning_pron": f"{data.get('transliteration', '')} - {meaning} - {data.get('pronunciation', '')}",
         "example_sentence": f"Example sentence in Tamil: {data.get('example_sentence', '')}",
-        "example_sentence_transliteration": f"Transliteration of the example: {data.get('example_sentence_transliteration', '')}",
-        "example_sentence_translation": f"Translation of example: {data.get('example_sentence_translation', '')}"
+        "example_sentence_pronunciation": f"Pronunciation of the example: {data.get('example_sentence_pronunciation', '')}",
+        "example_sentence_translation": f"Translation of the example: {data.get('example_sentence_translation', '')}"
     }
     for key, value in id_map.items():
         elements = root.xpath(f"//svg:text[@id='{key}']", namespaces=ns)
