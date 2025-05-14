@@ -4,7 +4,7 @@ transliteration: vāṉam
 meaning: sky
 pronunciation: vaa-nam
 example_sentence: வானம் நீலமாக உள்ளது.
-example_sentence_transliteration: vāṉam nīlamāka uḷḷatu.
+example_sentence_pronunciation: vāṉam nīlamāka uḷḷatu.
 example_sentence_translation: The sky is blue.
 ---
 word: தோழி
@@ -12,7 +12,7 @@ transliteration: tōḻi
 meaning: friend (female)
 pronunciation: tho-zh-ee
 example_sentence: என் தோழி எனக்கு புத்தகம் கொடுத்தாள்.
-example_sentence_transliteration: eṉ tōḻi eṉakku putthagam koṭuttāḷ.
+example_sentence_pronunciation: eṉ tōḻi eṉakku putthagam koṭuttāḷ.
 example_sentence_translation: My friend gave me a book.
 ---
 word: பசு
@@ -20,7 +20,7 @@ transliteration: pasu
 meaning: cow
 pronunciation: pa-su
 example_sentence: பசு பச்சை மேய்கிறது.
-example_sentence_transliteration: pasu pacchai mēykiṟatu.
+example_sentence_pronunciation: pasu pacchai mēykiṟatu.
 example_sentence_translation: The cow grazes on green grass.
 ---
 word: தோழன்
@@ -36,7 +36,7 @@ transliteration: vīdu
 meaning: house
 pronunciation: vee-du
 example_sentence: அவன் வீடு பெரியது.
-example_sentence_transliteration: avaṉ vīdu periyatu.
+example_sentence_pronunciation: avaṉ vīdu periyatu.
 example_sentence_translation: His house is big.
 ---
 word: புத்தகம்
@@ -44,7 +44,7 @@ transliteration: putthagam
 meaning: book
 pronunciation: puth-tha-gam
 example_sentence: நான் ஒரு புத்தகம் வாசிக்கிறேன்.
-example_sentence_transliteration: nāṉ oru putthagam vācikkiṟēṉ.
+example_sentence_pronunciation: nāṉ oru putthagam vācikkiṟēṉ.
 example_sentence_translation: I am reading a book.
 ---
 word: பூ
