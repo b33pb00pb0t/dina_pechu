@@ -1,128 +1,160 @@
 ---
-word: பந்து
-transliteration: pantu
-meaning: ball
-pronunciation: pan-dhu
-example_sentence: பையன் பந்துடன் விளையாடுகிறான்.
-example_sentence_pronunciation: pai-yan pan-dhu-dan vi-lai-aa-du-gi-raan.
-example_sentence_translation: The boy is playing with a ball.
+word: குடம்  
+transliteration: kuṭam  
+meaning: pot  
+pronunciation: ku-dam  
+example_sentence: அவள் குடத்தில் தண்ணீர் ஊற்றினாள்.  
+example_sentence_pronunciation: a-vaḷ ku-da-til thaṇ-ṇeer ooṟṟi-naaḷ.  
+example_sentence_translation: She poured water into the pot.  
 ---
-word: பெட்டி
-transliteration: peṭṭi
-meaning: box
-pronunciation: pet-ti
-example_sentence: பெட்டியில் புத்தகங்கள் உள்ளன.
-example_sentence_pronunciation: pet-ti-yil puth-tha-kan-gal ul-la-na.
-example_sentence_translation: There are books in the box.
+word: தூசி  
+transliteration: thoosi  
+meaning: dust  
+pronunciation: thoo-si  
+example_sentence: மேசை மீது தூசி இருக்கிறது.  
+example_sentence_pronunciation: me-sai mee-dhu thoo-si i-ru-kki-ra-dhu.  
+example_sentence_translation: There is dust on the table.  
 ---
-word: மழை
-transliteration: maḻai
-meaning: rain
-pronunciation: ma-zhai
-example_sentence: இன்று மழை பெய்கிறது.
-example_sentence_pronunciation: in-ru ma-zhai pey-ki-ra-dhu.
-example_sentence_translation: It is raining today.
+word: படுக்கை  
+transliteration: paṭukkai  
+meaning: bed  
+pronunciation: pa-duk-kai  
+example_sentence: நான் படுக்கையில் படுத்துக் கொண்டிருந்தேன்.  
+example_sentence_pronunciation: naan pa-duk-kai-yil pa-duk-kon-du irun-thaen.  
+example_sentence_translation: I was lying on the bed.  
 ---
-word: நதி
-transliteration: nati
-meaning: river
-pronunciation: na-dhi
-example_sentence: இந்த நதி மிகவும் ஆழமானது.
-example_sentence_pronunciation: in-tha na-dhi mi-ga-vum aa-zha-maa-na-dhu.
-example_sentence_translation: This river is very deep.
+word: கதவு  
+transliteration: kathavu  
+meaning: door  
+pronunciation: ka-tha-vu  
+example_sentence: கதவை திறந்துவிட்டேன்.  
+example_sentence_pronunciation: ka-tha-vai thi-ran-thu-vit-taen.  
+example_sentence_translation: I opened the door.  
 ---
-word: கடல்
-transliteration: kaṭal
-meaning: sea
-pronunciation: ka-dal
-example_sentence: கடலில் அலைகள் எழுகின்றன.
-example_sentence_pronunciation: ka-da-lil a-lai-gal e-zu-gi-ra-na.
-example_sentence_translation: Waves are rising in the sea.
+word: நாய்  
+transliteration: nāy  
+meaning: dog  
+pronunciation: naai  
+example_sentence: நாய் மிகவும் சுறுசுறுப்பாக இருக்கிறது.  
+example_sentence_pronunciation: naai mi-ga-vum su-ru-su-rup-pa-ga i-ru-kki-ra-dhu.  
+example_sentence_translation: The dog is very active.  
 ---
-word: காத்து
-transliteration: kāthu
-meaning: wind
-pronunciation: kaa-thu
-example_sentence: இன்று காற்று பலமாக வீசுகிறது.
-example_sentence_pronunciation: in-ru kaa-tru pa-la-maa-ga vee-su-gi-ra-dhu.
-example_sentence_translation: The wind is blowing strong today.
+word: பூனை  
+transliteration: pūṉai  
+meaning: cat  
+pronunciation: poo-nai  
+example_sentence: அந்த பூனை மெதுவாக நடக்கிறது.  
+example_sentence_pronunciation: an-tha poo-nai me-dhu-va-ga na-da-kki-ra-dhu.  
+example_sentence_translation: That cat is walking slowly.  
 ---
-word: குளம்
-transliteration: kuḷam
-meaning: pond
-pronunciation: ku-lam
-example_sentence: குளத்தில் மந்தாக நுரை உள்ளது.
-example_sentence_pronunciation: ku-la-thil man-thaa-ga nu-rai ul-la-dhu.
-example_sentence_translation: There is calm foam on the pond.
+word: பந்து  
+transliteration: panthu  
+meaning: ball  
+pronunciation: pan-thu  
+example_sentence: குழந்தை பந்துடன் விளையாடுகிறது.  
+example_sentence_pronunciation: ku-lan-thai pan-thu-dan vi-lai-aa-du-ki-ra-dhu.  
+example_sentence_translation: The child is playing with the ball.  
 ---
-word: கண்ணீர்
-transliteration: kaṇṇīr
-meaning: tear
-pronunciation: kan-neer
-example_sentence: அவன் கண்ணீருடன் பேசினான்.
-example_sentence_pronunciation: a-van kan-neer-u-dan pae-si-naan.
-example_sentence_translation: He spoke with tears in his eyes.
+word: நெருப்பு  
+transliteration: neruppu  
+meaning: fire  
+pronunciation: ne-rup-pu  
+example_sentence: நெருப்பை கவனமாக கையாளுங்கள்.  
+example_sentence_pronunciation: ne-rup-pai ka-va-na-maa-ga ka-yaa-lun-gal.  
+example_sentence_translation: Handle fire carefully.  
 ---
-word: சிரிப்பு
-transliteration: cirippu
-meaning: smile / laughter
-pronunciation: si-rip-pu
-example_sentence: அவளின் சிரிப்பு அழகாக உள்ளது.
-example_sentence_pronunciation: a-va-lin si-rip-pu a-la-gaa-ga ul-la-dhu.
-example_sentence_translation: Her smile is beautiful.
+word: பனி  
+transliteration: paṉi  
+meaning: snow / frost  
+pronunciation: pa-ni  
+example_sentence: காலை பனியால் குளிராக இருந்தது.  
+example_sentence_pronunciation: kaa-lai pa-ni-yaal ku-li-raa-ga i-run-tha-dhu.  
+example_sentence_translation: It was cold in the morning due to frost.  
 ---
-word: மேகம்
-transliteration: mēgam
-meaning: cloud
-pronunciation: mae-gam
-example_sentence: மேகங்கள் ஆங்காங்கே பறக்கின்றன.
-example_sentence_pronunciation: mae-kan-gal aang-aang-gae pa-rak-kin-ra-na.
-example_sentence_translation: Clouds are flying here and there.
+word: கண்ணாடி  
+transliteration: kaṇṇāṭi  
+meaning: mirror / glass  
+pronunciation: kan-naa-di  
+example_sentence: கண்ணாடியில் என் முகம் தெரிகிறது.  
+example_sentence_pronunciation: kan-naa-di-yil en mu-kham the-ri-kki-ra-dhu.  
+example_sentence_translation: My face is visible in the mirror.  
 ---
-word: கல்
-transliteration: kal
-meaning: stone
-pronunciation: kal
-example_sentence: குழந்தை கல்லை எடுத்து வீசியது.
-example_sentence_pronunciation: ku-lan-thai kal-lai e-du-thu vee-si-ya-dhu.
-example_sentence_translation: The child picked up the stone and threw it.
+word: மேசை  
+transliteration: mēcai  
+meaning: table  
+pronunciation: me-sai  
+example_sentence: புத்தகம் மேசையில் இருக்கிறது.  
+example_sentence_pronunciation: puth-tha-gam me-sai-yil i-ru-kki-ra-dhu.  
+example_sentence_translation: The book is on the table.  
 ---
-word: தூசி
-transliteration: tūci
-meaning: dust
-pronunciation: thoo-si
-example_sentence: மேசையில் தூசி உள்ளது.
-example_sentence_pronunciation: mae-sai-yil thoo-si ul-la-dhu.
-example_sentence_translation: There is dust on the table.
+word: நிழல்  
+transliteration: niḻal  
+meaning: shadow  
+pronunciation: ni-zhal  
+example_sentence: மரத்தின் நிழலில் நின்றோம்.  
+example_sentence_pronunciation: ma-ra-thin ni-za-lil nin-rome.  
+example_sentence_translation: We stood in the tree’s shadow.  
 ---
-word: சுவர்
-transliteration: cuvar
-meaning: wall
-pronunciation: su-var
-example_sentence: சுவரில் ஓவியம் உள்ளது.
-example_sentence_pronunciation: su-va-ril o-vi-yam ul-la-dhu.
-example_sentence_translation: There is a painting on the wall.
+word: சுவரு  
+transliteration: suvaru  
+meaning: wall  
+pronunciation: su-va-ru  
+example_sentence: சுவரில் ஓவியம் வரையப்பட்டது.  
+example_sentence_pronunciation: su-va-ril oo-vi-yam va-ra-yap-pa-tta-dhu.  
+example_sentence_translation: A painting was drawn on the wall.  
 ---
-word: கதவு
-transliteration: katavu
-meaning: door
-pronunciation: ka-tha-vu
-example_sentence: கதவு திறந்துவிடப்பட்டுள்ளது.
-example_sentence_pronunciation: ka-tha-vu thi-ran-thu-vi-du-pa-ṭṭu-lla-dhu.
-example_sentence_translation: The door has been opened.
+word: தரை  
+transliteration: tharai  
+meaning: floor / ground  
+pronunciation: tha-rai  
+example_sentence: தரையில் படுக்க வேண்டாம்.  
+example_sentence_pronunciation: tha-rai-yil pa-duk-ka ven-daam.  
+example_sentence_translation: Don’t lie on the floor.  
 ---
-word: ஜன்னல்
-transliteration: jaṉṉal
-meaning: window
-pronunciation: jan-nal
-example_sentence: ஜன்னலில் வெளிச்சம் வருகிறது.
-example_sentence_pronunciation: jan-na-lil ve-li-cham va-ru-gi-ra-dhu.
-example_sentence_translation: Light is coming through the window.
+word: வண்டி  
+transliteration: vaṇṭi  
+meaning: vehicle / cart  
+pronunciation: van-di  
+example_sentence: அந்த வண்டி பழையது.  
+example_sentence_pronunciation: an-tha van-di pa-zhai-ya-dhu.  
+example_sentence_translation: That vehicle is old.  
 ---
-word: தரை
-transliteration: tarai
-meaning: floor/ground
-pronunciation: tha-rai
-example_sentence: தரையில் ஒரு பொம்மை உள்ளது.
-example_sentence_pronunciation: tha-rai-yil o-ru pom-mai ul-la-dhu.
-example_sentence_translation: There is a doll on the floor.
+word: பத்து  
+transliteration: paththu  
+meaning: ten  
+pronunciation: path-thu  
+example_sentence: எனக்கு பத்து ரூபாய் வேண்டும்.  
+example_sentence_pronunciation: e-na-kku path-thu roo-paa-y ven-dum.  
+example_sentence_translation: I need ten rupees.  
+---
+word: நூல்  
+transliteration: nool  
+meaning: thread / book  
+pronunciation: nool  
+example_sentence: நூலை ஆவணமாக வைத்தார்.  
+example_sentence_pronunciation: noo-lai aa-va-na-maa-ga vai-ttaar.  
+example_sentence_translation: He preserved the book as a document.  
+---
+word: குளம்  
+transliteration: kuḷam  
+meaning: pond  
+pronunciation: ku-lam  
+example_sentence: அந்தக் குளத்தில் மீன்கள் உள்ளன.  
+example_sentence_pronunciation: an-thak ku-lath-thil meen-gal ul-la-na.  
+example_sentence_translation: There are fish in that pond.  
+---
+word: மண்  
+transliteration: maṇ  
+meaning: soil  
+pronunciation: man  
+example_sentence: இந்த மண் மிகவும் பயிரிட ஏற்றது.  
+example_sentence_pronunciation: in-tha man mi-ga-vum pa-yi-ri-da yai-rra-dhu.  
+example_sentence_translation: This soil is very suitable for farming.  
+---
+word: நிலா  
+transliteration: nilā  
+meaning: moon  
+pronunciation: ni-laa  
+example_sentence: நிலா இரவில் மின்னுகிறது.  
+example_sentence_pronunciation: ni-laa i-ra-vil min-nu-ki-ra-dhu.  
+example_sentence_translation: The moon shines at night.  
